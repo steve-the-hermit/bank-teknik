@@ -1,12 +1,16 @@
-// src/index.js
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
-import "./index.css";
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import './TransactionTable.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+import './TransactionForm.css';
+import './SearchBar.css';
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root')); // Use createRoot instead of ReactDOM.render
+root.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
+
+reportWebVitals();

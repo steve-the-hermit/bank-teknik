@@ -1,0 +1,34 @@
+/* TransactionTable.css */
+
+.transaction-table {
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-table h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-table table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+  }
+  
+  .transaction-table th {
+    background-color: #f1f1f1;
+    text-align: left;
+  }
+  
+  /* Add any other styles specific to the TransactionTable component */
+  

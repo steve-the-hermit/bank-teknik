@@ -1,0 +1,15 @@
+/* SearchBar.css */
+
+.search-bar {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Add any other styles specific to the SearchBar component */
+  

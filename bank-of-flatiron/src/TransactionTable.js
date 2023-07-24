@@ -1,7 +1,7 @@
 // src/components/TransactionTable.js
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./app.css"; // Import the app.css file
+import "./TransactionTable.css"; // Import the correct CSS file
 
 const TransactionTable = () => {
   const [transactions, setTransactions] = useState([]);
