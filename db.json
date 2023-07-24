@@ -153,6 +153,20 @@
       "category": "",
       "amount": "",
       "id": 22
+    },
+    {
+      "date": "4-4-2004",
+      "description": "tempo",
+      "category": "music",
+      "amount": "50",
+      "id": 23
+    },
+    {
+      "date": "",
+      "description": "",
+      "category": "",
+      "amount": "9.00",
+      "id": 24
     }
   ]
 }

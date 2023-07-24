@@ -22,12 +22,14 @@ const App = () => {
   };
 
   const handleSearch = (searchTerm) => {
-    // Filter transactions based on the search term
+    // Filter transactions based on the search term (case-insensitive)
     const filteredTransactions = transactions.filter((transaction) =>
       transaction.description.toLowerCase().includes(searchTerm.toLowerCase())
     );
-    setFilteredTransactions(filteredTransactions);
+    // If the search term is empty, show all transactions
+    setFilteredTransactions(searchTerm === "" ? transactions : filteredTransactions);
   };
+  
 
   return (
     <div>
