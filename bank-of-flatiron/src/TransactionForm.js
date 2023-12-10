@@ -1,7 +1,7 @@
 // src/components/TransactionForm.js
 import React, { useState } from "react";
 import axios from "axios";
-
+import "./TrransactionForm.css";
 const TransactionForm = ({ updateTransactions }) => {
   const [formData, setFormData] = useState({
     date: "",
@@ -45,7 +45,7 @@ const TransactionForm = ({ updateTransactions }) => {
 
   return (
     <div>
-      <h2>Add New Transaction</h2>
+      <h2> New Transaction</h2>
       <form onSubmit={handleSubmit}>
         <label>Date:</label>
         <input
